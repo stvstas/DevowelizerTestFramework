@@ -1,0 +1,15 @@
+input,expected,responseCode
+test,tst,200
+123,123,200
+1_rai,1_r,200
+test input,tst npt,200
+aaa,"",200
+1#$%,1#$%,200
+ccc,ccc,200
+PaRenP,PRnP,200
+PaRenPA,PRnP,200
+TEST,TST,200
+(*),(*),200
+"","Send GET to /:input",200
+
+
